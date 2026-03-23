@@ -1,0 +1,100 @@
+/* MES自动工时定额插件样式 */
+
+#mes-extension-button {
+  transition: all 0.3s ease;
+}
+
+#mes-extension-button:hover {
+  background-color: #45a049;
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+#mes-extension-panel {
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+#mes-extension-panel h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mes-setting-item {
+  background-color: #f9f9f9;
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.2s ease;
+}
+
+.mes-setting-item:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.mes-job-input, .mes-team-input {
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+.mes-job-input:focus, .mes-team-input:focus {
+  outline: none;
+  border-color: #2196F3;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+}
+
+#mes-settings-list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+/* 滚动条样式 */
+#mes-settings-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+#mes-settings-list::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+#mes-settings-list::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+#mes-settings-list::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* 按钮通用样式 */
+#mes-extension-panel button {
+  font-family: inherit;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+#mes-extension-panel button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+#mes-extension-panel button:active {
+  transform: translateY(0);
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  #mes-extension-panel {
+    width: 250px;
+    right: 80px;
+  }
+  
+  #mes-extension-button {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <!-- 齿轮背景 -->
+  <circle cx="24" cy="24" r="18" fill="#4CAF50"/>
+  <!-- 齿轮齿 -->
+  <rect x="23" y="0" width="2" height="6" fill="#4CAF50"/>
+  <rect x="42" y="23" width="6" height="2" fill="#4CAF50"/>
+  <rect x="23" y="42" width="2" height="6" fill="#4CAF50"/>
+  <rect x="0" y="23" width="6" height="2" fill="#4CAF50"/>
+  <rect x="34" y="6" width="2" height="6" transform="rotate(45 35 9)" fill="#4CAF50"/>
+  <rect x="36" y="34" width="6" height="2" transform="rotate(45 39 35)" fill="#4CAF50"/>
+  <rect x="6" y="34" width="2" height="6" transform="rotate(-45 7 37)" fill="#4CAF50"/>
+  <rect x="6" y="6" width="6" height="2" transform="rotate(-45 9 7)" fill="#4CAF50"/>
+  <!-- 时钟表盘 -->
+  <circle cx="24" cy="24" r="12" fill="white"/>
+  <!-- 时钟刻度 -->
+  <rect x="23" y="12" width="2" height="3" fill="#333"/>
+  <rect x="33" y="23" width="3" height="2" fill="#333"/>
+  <rect x="23" y="33" width="2" height="3" fill="#333"/>
+  <rect x="12" y="23" width="3" height="2" fill="#333"/>
+  <!-- 时钟指针 -->
+  <line x1="24" y1="24" x2="24" y2="18" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <line x1="24" y1="24" x2="30" y2="24" stroke="#333" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="24" cy="24" r="3" fill="#333"/>
+</svg>
